@@ -5,7 +5,7 @@ This repository will have some Ruby code and will show what and how to use this.
 ### Tips and Tricks for Ruby!
 
 1. What to install before using Ruby on Visual Studio Code?
-    You would want to install the extensions:
+    - You would want to install the extensions:
         - Ruby
         - VSCode Ruby
 
