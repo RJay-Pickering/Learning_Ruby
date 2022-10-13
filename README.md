@@ -13,4 +13,10 @@ This repository will have some Ruby code and will show what and how to use this.
 
 3. Most of the comments in the Ruby file are guides as to what they do and more in depth of how they work
 
-4. reference video that I used: https://youtu.be/8wZ2ZD--VTk
+4. The folders that exist in this repository are exercises for projects!
+
+5. To run a ruby project, you will need to type out "ruby file_name.rb"!
+    - example:
+        - ruby App.rb
+
+6. reference video that I used: https://youtu.be/8wZ2ZD--VTk

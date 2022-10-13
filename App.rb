@@ -403,3 +403,31 @@ my_chef.make_chicken()
 my_italian_chef = ItalianChef.new("Massimo Bottura", 55, "Italy")
 my_italian_chef.make_chicken()
 puts my_italian_chef.age;
+
+
+# R A N D O M
+
+# When the method is called with no arguments, it returns a float that is greater than or equal to 0.0 and less than 1.0.
+random_num = rand()
+puts random_num
+
+# The function will return a random integer value that is greater than or equal to 0 and less than the integer passed to the function. Each time the following is run, you will get a number that is between 0 and 7.
+random_num = rand(8)
+puts random_num
+
+# The following uses an inclusive Range to generate random numbers from a lower limit (1), up to (and including) the upper limit (10).
+random_num = rand(1..10)
+puts random_num
+
+#The next example uses a non-inclusive Range to generate random numbers from a lower limit, up to (but not including) the upper limit.
+random_num = rand(1...10)
+puts random_num
+
+
+# C A P I T A L I Z E    &    L O W E R C A S E
+
+capital = "greeks"
+lower = "Hey"
+
+puts capital.capitalize()
+puts lower.downcase
