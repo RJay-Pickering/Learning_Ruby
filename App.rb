@@ -431,3 +431,21 @@ lower = "Hey"
 
 puts capital.capitalize()
 puts lower.downcase
+
+
+# G E T T I N G   D A T E   OR   TIME
+
+# This basically imports the date time function
+require 'date'
+
+d = DateTime.now
+
+this_month_varible = d.strftime("%d/%m/%Y %H:%M")
+#=> "Day/Month/Year Hour:Minute"
+
+puts this_month_varible
+
+next_month_varible = d.next_month.strftime("%d/%m/%Y %H:%M")
+#=> "Day/Next_Month/Year Hour:Minute"
+
+puts next_month_varible
