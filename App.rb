@@ -457,9 +457,11 @@ puts next_month_varible
 # => "String1"
 
 example = "I-Am-A-Apple!"
+#this would replace the - to a space
 example_result = example.tr('-', ' ')
 puts example_result
 
 example2 = "Auto+matic"
+# this would just remove the +
 example2_result = example2.tr('+', '')
 puts example2_result
