@@ -449,3 +449,17 @@ next_month_varible = d.next_month.strftime("%d/%m/%Y %H:%M")
 #=> "Day/Next_Month/Year Hour:Minute"
 
 puts next_month_varible
+
+
+# D E L E T I N G   C E R T A I N   S T R I N G S
+
+"((String1))".tr('()', '')
+# => "String1"
+
+example = "I-Am-A-Apple!"
+example_result = example.tr('-', ' ')
+puts example_result
+
+example2 = "Auto+matic"
+example2_result = example2.tr('+', '')
+puts example2_result
